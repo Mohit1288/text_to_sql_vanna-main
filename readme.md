@@ -132,11 +132,19 @@ Once the system is up and running, you can ask natural language questions about 
 - **Request body**:
 ```json
 {
- "question": "What is the total revenue for July 2017?"
+ "question": "What is the total revenue for July 2015?"
 }
 {
   "response": {
-    "llm_response": "The total revenue for July 2017 was $5,000.",
+    "llm_response": "The total revenue for July 2017 was  $271,588.06.",
+    "image": null
+  }
+{
+ "question": "What is the  average price of hotel booking for  July 2015?"
+}
+{
+  "response": {
+    "llm_response": "The total revenue for July 2017 was  $97.83.",
     "image": null
   }
 }
