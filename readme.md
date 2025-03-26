@@ -18,7 +18,7 @@ This project includes an **API** that facilitates querying the data, as well as 
    - **Booking Lead Time Distribution**: Displays the distribution of lead times between the booking and the check-in date.
 
 3. **Retrieval-Augmented Question Answering (RAG)**:
-   - Integrates an LLM (such as **GPT-3**, **Llama 2**, **Falcon**, etc.) with a vector database (ChromaDB) to enable natural language querying.
+   - Integrates an LLM (such as Google Gemini.) with a vector database (ChromaDB) to enable natural language querying.
    - Example queries include:
      - "Show me total revenue for July 2017."
      - "Which locations had the highest booking cancellations?"
